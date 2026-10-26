@@ -1,0 +1,29 @@
+# Ambientes virtuais
+venv/
+venvv/
+ENV/
+env/
+.venv/
+
+# Variáveis de ambiente e segredos
+.env
+*.env
+!.env.example
+
+# Bytecode e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Banco de dados vetorial e dados locais
+vectorstore_data/
+vectorstore/
+*.sqlite3
+
+# Arquivos temporários RAG
+rag_files/processed/
+
+# IDEs
+.vscode/
+.idea/
